@@ -1,0 +1,168 @@
+.transcript-viewer {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .transcript-header {
+    padding: 20px;
+    border-bottom: 1px solid var(--border-color);
+  }
+  
+  .transcript-header h1 {
+    margin: 0 0 10px 0;
+  }
+  
+  .case-details {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: var(--background-color);
+    border-radius: 4px;
+  }
+  
+  .case-details h2 {
+    margin-top: 0;
+    color: var(--primary-color);
+  }
+  
+  .case-details p {
+    margin: 5px 0;
+  }
+  
+  .connection-status {
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  
+  .connected {
+    color: var(--success-color);
+  }
+  
+  .disconnected {
+    color: var(--error-color);
+  }
+  
+  .action-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .action-buttons button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .action-buttons button:hover {
+    background-color: #1669e6;
+  }
+  
+  .transcript-body {
+    padding: 20px;
+  }
+  
+  .segment {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 4px;
+    position: relative;
+  }
+  
+  .segment-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .speaker {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .timestamp {
+    color: var(--secondary-color);
+    font-size: 14px;
+  }
+  
+  .edit-button {
+    margin-left: auto;
+    background-color: transparent;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+  
+  .edit-button:hover {
+    background-color: var(--hover-color);
+  }
+  
+  .edit-container {
+    margin-top: 10px;
+  }
+  
+  .edit-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 16px;
+    resize: vertical;
+  }
+  
+  .edit-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .edit-actions button:first-child {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  .edit-actions button:last-child {
+    background-color: transparent;
+    color: var(--secondary-color);
+    border: 1px solid var(--border-color);
+  }
+  
+  .text {
+    line-height: 1.6;
+  }
+  
+  /* Speaker color coding */
+  .segment.judge {
+    background-color: var(--judge-color);
+    border-left: 4px solid #4285f4;
+  }
+  
+  .segment.advocate-plaintiff,
+  .segment.advocate {
+    background-color: var(--advocate-color);
+    border-left: 4px solid #fbbc04;
+  }
+  
+  .segment.advocate-defense {
+    background-color: var(--advocate-color);
+    border-left: 4px solid #ea4335;
+  }
+  
+  .segment.witness {
+    background-color: var(--witness-color);
+    border-left: 4px solid #34a853;
+  }
+  
+  .segment.unknown,
+  .segment.speaker {
+    background-color: var(--unknown-color);
+    border-left: 4px solid #5f6368;
+  }
