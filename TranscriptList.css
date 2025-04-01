@@ -1,0 +1,118 @@
+.transcript-list {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .list-header {
+    padding: 20px;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+  }
+  
+  .list-header h1 {
+    margin: 0;
+    flex: 1;
+  }
+  
+  .filter-form {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .filter-form input {
+    padding: 8px 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-size: 14px;
+    min-width: 200px;
+  }
+  
+  .filter-form button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .action-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .upload-button,
+  .record-button {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .upload-button {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  .record-button {
+    background-color: #ea4335;
+    color: white;
+  }
+  
+  .upload-button:hover,
+  .record-button:hover {
+    opacity: 0.9;
+    text-decoration: none;
+  }
+  
+  .no-transcripts {
+    padding: 30px;
+    text-align: center;
+    color: var(--secondary-color);
+  }
+  
+  .transcripts-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .transcripts-table th,
+  .transcripts-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+  }
+  
+  .transcripts-table th {
+    background-color: var(--background-color);
+    font-weight: 500;
+    color: var(--secondary-color);
+  }
+  
+  .transcripts-table tr:hover {
+    background-color: var(--hover-color);
+  }
+  
+  .view-button {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .view-button:hover {
+    opacity: 0.9;
+    text-decoration: none;
+  }
