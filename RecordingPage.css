@@ -1,0 +1,137 @@
+.recording-page {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+  }
+  
+  .recording-page h1 {
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+  
+  .recording-container {
+    margin-bottom: 24px;
+  }
+  
+  .recording-controls {
+    margin-top: 24px;
+    text-align: center;
+  }
+  
+  .start-button {
+    background-color: #ea4335;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .recording-indicator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .recording-light {
+    width: 16px;
+    height: 16px;
+    background-color: #ea4335;
+    border-radius: 50%;
+    margin-right: 10px;
+    animation: pulse 1.5s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.3;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .recording-time {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 20px;
+  }
+  
+  .stop-button {
+    background-color: #5f6368;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .recording-playback {
+    margin-top: 20px;
+  }
+  
+  .recording-playback audio {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+  
+  .recording-info {
+    margin: 12px 0;
+    padding: 12px;
+    background-color: var(--background-color);
+    border-radius: 4px;
+    text-align: left;
+  }
+  
+  .playback-controls {
+    display: flex;
+    gap: 12px;
+    margin-top: 16px;
+  }
+  
+  .playback-controls .upload-button {
+    flex: 1;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 0;
+  }
+  
+  .discard-button {
+    flex: 1;
+    background-color: transparent;
+    color: var(--secondary-color);
+    border: 1px solid var(--border-color);
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .recording-notes {
+    background-color: var(--background-color);
+    border-radius: 4px;
+    padding: 16px;
+    margin-top: 24px;
+  }
+  
+  .recording-notes h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: var(--secondary-color);
+  }
+  
+  .recording-notes ul {
+    padding-left: 20px;
+  }
+  
+  .recording-notes li {
+    margin-bottom: 8px;
+    color: var(--secondary-color);
+  }
+  
