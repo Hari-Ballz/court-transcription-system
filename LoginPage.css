@@ -1,0 +1,114 @@
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .login-container {
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 800px;
+    overflow: hidden;
+  }
+  
+  .login-header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 24px;
+    text-align: center;
+  }
+  
+  .login-header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: white;
+  }
+  
+  .login-header p {
+    margin-top: 8px;
+    font-size: 16px;
+    opacity: 0.8;
+  }
+  
+  .login-form {
+    padding: 24px;
+    border-bottom: 1px solid var(--border-color);
+  }
+  
+  .login-form h2 {
+    margin-top: 0;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 16px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 16px;
+  }
+  
+  .login-button:hover {
+    background-color: #1669e6;
+  }
+  
+  .login-demo-info {
+    padding: 24px;
+  }
+  
+  .login-demo-info h3 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    text-align: center;
+    color: var(--secondary-color);
+  }
+  
+  .demo-users {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .demo-user {
+    flex: 1;
+    min-width: 200px;
+    background-color: #f8f9fa;
+    padding: 16px;
+    border-radius: 4px;
+    margin: 0 8px 8px 0;
+  }
+  
+  .demo-user p {
+    margin: 4px 0;
+  }
+  
+  .demo-user strong {
+    color: var(--primary-color);
+  }
