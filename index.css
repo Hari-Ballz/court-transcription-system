@@ -1,0 +1,36 @@
+:root {
+  --primary-color: #1a73e8;
+  --secondary-color: #5f6368;
+  --background-color: #f8f9fa;
+  --card-background: #ffffff;
+  --border-color: #dadce0;
+  --text-color: #202124;
+  --error-color: #d93025;
+  --success-color: #0f9d58;
+  --warning-color: #f29900;
+  --hover-color: #e8f0fe;
+  
+  --judge-color: #8ab4f8;
+  --advocate-color: #fdd663;
+  --witness-color: #81c995;
+  --unknown-color: #d2e3fc;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
